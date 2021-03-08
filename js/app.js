@@ -16,15 +16,15 @@ function showMenu () {
     
 
     if(menu.classList.contains('display-on')){
-    menuButton.style.backgroundImage = `url('../img/cancel.png')`
+    menuButton.style.backgroundImage = `url('./img/cancel.png')`
     } else {
-        menuButton.style.backgroundImage = `url('../img/menu.jpg')`
+        menuButton.style.backgroundImage = `url('./img/menu.jpg')`
     }
 
     buttons.forEach(button => {
         button.addEventListener('click', () => {
             menu.classList.remove("display-on")
-            menuButton.style.backgroundImage = `url('../img/menu.jpg')`
+            menuButton.style.backgroundImage = `url('./img/menu.jpg')`
         })
     })
 }
