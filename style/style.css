@@ -69,7 +69,7 @@ video {
 .menu-icon {
   background-image: url("../img/menu.jpg");
   width: 12%;
-  height: 10%;
+  max-height: 10%;
   margin-top: 10%;
   margin-right: 5%;
   background-size: contain;
