@@ -23,7 +23,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
+  overflow:hidden;
   object-fit: cover;
   z-index: 50;
   top: 0;
@@ -58,6 +58,7 @@ body {
   left: 0;
   filter: brightness(40%);
   height: 110%;
+  overflow:hidden;
 }
 
 .desktop-theme {
